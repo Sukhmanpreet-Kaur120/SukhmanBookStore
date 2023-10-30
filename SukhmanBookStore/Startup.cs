@@ -7,11 +7,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using SukhmanBookStore.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using SukhmanBookStore.DataAccess.Data;
 
 namespace SukhmanBookStore
 {
@@ -63,7 +63,7 @@ namespace SukhmanBookStore
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{area=Customer}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
         }
