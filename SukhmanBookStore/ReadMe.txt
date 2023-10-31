@@ -1,5 +1,4 @@
-﻿0: 30
-WEB 452 003
+﻿2023-10-31 
 
 1415
 I'm starting the 2nd Assignment. 
