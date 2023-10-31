@@ -1,11 +1,11 @@
-﻿2023-10-31 
+﻿2023-10-30
+Name-Sukhmanpreet Kaur
 
 1415
 I'm starting the 2nd Assignment. 
 In the first step I create a new project in Visual Studio 2019 and then
-selected ASP.NET Core Web Application, then configured the project by giving 
+selected ASP.NET Core Web Application, then configured the project by giving
 it the name as SukhmanBookStore.
-Next thing we have to do is create a new ASP.NET core web application as in ASP.NET Core 
 Web App (Model-View-Controller) and the core should be 5.0 as well as change the authentication 
 to Individual User Accountsclick on the Enable Razor runtime compilation and create the project.
 
