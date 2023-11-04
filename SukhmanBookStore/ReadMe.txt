@@ -1,7 +1,4 @@
-﻿2023-10-30
-Name-Sukhmanpreet Kaur
-
-1415
+﻿2023-10-30 1415
 I'm starting the 2nd Assignment. 
 In the first step I create a new project in Visual Studio 2019 and then
 selected ASP.NET Core Web Application, then configured the project by giving
@@ -72,5 +69,9 @@ after writting it error closed and then
 tested it worked 
 everything good my assignment done!
 
-0: 31
+2023-10-31
 updated my README.txt
+
+2023-11-3
+part 2
+started by adding the new migration file
