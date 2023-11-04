@@ -11,8 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SukhmanBookStore.Models\SukhmanBookStore.Models.csproj" />
-    <ProjectReference Include="..\SukhmanBookStore.Utility\SukhmanBookStore.Utility.csproj" />
+    <ProjectReference Include="..\SukhmanBookStore.Models\SukhmanBooks.Models.csproj" />
+    <ProjectReference Include="..\SukhmanBookStore.Utility\SukhmanBooks.Utility.csproj" />
   </ItemGroup>
 
 </Project>

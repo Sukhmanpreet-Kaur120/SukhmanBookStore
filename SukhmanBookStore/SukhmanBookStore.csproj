@@ -32,9 +32,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SukhmanBookStore.DataAccess\SukhmanBookStore.DataAccess.csproj" />
-    <ProjectReference Include="..\SukhmanBookStore.Models\SukhmanBookStore.Models.csproj" />
-    <ProjectReference Include="..\SukhmanBookStore.Utility\SukhmanBookStore.Utility.csproj" />
+    <ProjectReference Include="..\SukhmanBookStore.DataAccess\SukhmanBooks.DataAccess.csproj" />
+    <ProjectReference Include="..\SukhmanBookStore.Models\SukhmanBooks.Models.csproj" />
+    <ProjectReference Include="..\SukhmanBookStore.Utility\SukhmanBooks.Utility.csproj" />
   </ItemGroup>
 
   <ItemGroup>
