@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace SukhmanBooks.DataAccess.Repository.IRepository
 {
-    public class ICategoryRepository
+    public interface IUnitOfWork :IDisposable
     {
-        public static implicit operator ICategoryRepository(CategoryRepository v)
-        {
-            throw new NotImplementedException();
-        }
+        ICategoryRepository Category { get; }
+        ISP_Call SP_Call { get; }
     }
 }

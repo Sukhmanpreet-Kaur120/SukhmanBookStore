@@ -17,6 +17,6 @@ namespace SukhmanBookStore.Models.ViewModels
         [Required]
         [MaxLength(50)]
 
-        public string Nmae { get; set; }
+        public string Name { get; set; }
     }
 }
