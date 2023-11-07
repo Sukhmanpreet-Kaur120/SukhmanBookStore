@@ -9,16 +9,22 @@ namespace SukhmanBooks.DataAccess.Repository.IRepository
 {
     public interface IRepository<T> where T : class
     {
-        T Get(int id); // Retrieve a category from the database by id
-        // List of Ctegories based on requirements
+        T Get(int id);
+
         IEnumerable<T> GetAll(
             Expression<Func<T, bool>> filter = null,
             Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
-            string includeProperties = null // usefull for foreign key references
+            string includeProperties = null
             );
-        void Add(T entity); // to add an entity
-        void Remove(int id); // to remove an object or category 
-        void Remove(T entity); // another way to remove an object
-        void RemoveRange(IEnumerable<T> entity); // removes a complete range of entities
+        T GetFirstOrDefault(
+            Expression<Func<T, bool>> filter = null,
+            string includeProperties = null
+            );
+
+        void Add(T entity);
+        void Remove(int id);
+        void Remove(T entity);
+        void RemoveRange(IEnumerable<T> entity);
+
     }
 }

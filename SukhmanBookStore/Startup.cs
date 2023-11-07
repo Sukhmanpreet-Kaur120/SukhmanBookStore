@@ -12,6 +12,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using SukhmanBookStore.DataAccess.Data;
+using SukhmanBooks.DataAccess.Repository.IRepository;
+using SukhmanBooks.DataAccess.Repository;
 
 namespace SukhmanBookStore
 {
@@ -34,6 +36,7 @@ namespace SukhmanBookStore
 
             services.AddDefaultIdentity<IdentityUser>(/*options => options.SignIn.RequireConfirmedAccount = true*/)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
         }
 
