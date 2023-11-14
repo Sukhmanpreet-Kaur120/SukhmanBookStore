@@ -136,3 +136,9 @@ Moving forward added new editing and creating concept to the file by editing to 
 
 1720
 Now added content to category.js and commit the code.
+
+2023-11-14 1503
+I was getting an error in migration where I miss-spelled the column Name to "Nmae".
+
+solution was change to the correct name added the new migration -20231114195032_AddCategoryToDb2 and updated the database 
+and the column name got changed to "Name". Rerun the project and everything went successfully. 
