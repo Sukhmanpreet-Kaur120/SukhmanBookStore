@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using SukhmanBookStore.Models.ViewModels;
+using SukhmanBooks.Models;
 
 namespace SukhmanBookStore.DataAccess.Data
 {

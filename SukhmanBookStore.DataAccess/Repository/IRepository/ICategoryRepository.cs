@@ -1,5 +1,5 @@
 ﻿using SukhmanBooks.DataAccess.Repository.IRepository;
-
+using SukhmanBooks.Models;
 using SukhmanBookStore.Models.ViewModels;
 using System;
 using System.Collections.Generic;
