@@ -142,3 +142,6 @@ I was getting an error in migration where I miss-spelled the column Name to "Nma
 
 solution was change to the correct name added the new migration -20231114195032_AddCategoryToDb2 and updated the database 
 and the column name got changed to "Name". Rerun the project and everything went successfully. 
+
+2023-11-15 2147
+Added migration cover type to the database 20231116024533_AddCoverTypeToDb.Designer.
