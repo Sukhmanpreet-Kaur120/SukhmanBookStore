@@ -1,4 +1,6 @@
-﻿ using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc;
+using SukhmanBooks.DataAccess.Repository.IRepository;
 using System;
 using System.Collections.Generic;
 using System.Linq;

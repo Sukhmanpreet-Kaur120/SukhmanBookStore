@@ -161,3 +161,6 @@ Created ProductRepository and IProductRepository and added them to UnitOfWork an
 
 2055
 Created ProductController.cs and created productVM models in Models project
+
+2103
+Created ProductController, Index.cshtml and added link to nav bar. Created product.js
