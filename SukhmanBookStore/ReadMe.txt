@@ -158,3 +158,6 @@ for the second migration - 20231121014738_addValidationToProduct
 
 2050
 Created ProductRepository and IProductRepository and added them to UnitOfWork and IUnitOfWork
+
+2055
+Created ProductController.cs and created productVM models in Models project
