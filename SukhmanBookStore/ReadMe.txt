@@ -150,3 +150,5 @@ Added migration cover type to the database 20231116024533_AddCoverTypeToDb.Desig
 2034
 Created new CoverType.cs and class coverTypeRepository and ICoverTypeRepository and added them to UnitOfWork and IUnitOfWork
 
+2046
+Created product.cs and added refernece to db and migration - 20231121014429_addProductToDb
