@@ -152,3 +152,9 @@ Created new CoverType.cs and class coverTypeRepository and ICoverTypeRepository 
 
 2046
 Created product.cs and added refernece to db and migration - 20231121014429_addProductToDb
+
+2047
+for the second migration - 20231121014738_addValidationToProduct
+
+2050
+Created ProductRepository and IProductRepository and added them to UnitOfWork and IUnitOfWork
