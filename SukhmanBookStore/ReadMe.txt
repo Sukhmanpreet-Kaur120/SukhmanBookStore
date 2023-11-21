@@ -145,3 +145,8 @@ and the column name got changed to "Name". Rerun the project and everything went
 
 2023-11-15 2147
 Added migration cover type to the database 20231116024533_AddCoverTypeToDb.Designer.
+
+2023-11-20
+2034
+Created new CoverType.cs and class coverTypeRepository and ICoverTypeRepository and added them to UnitOfWork and IUnitOfWork
+
