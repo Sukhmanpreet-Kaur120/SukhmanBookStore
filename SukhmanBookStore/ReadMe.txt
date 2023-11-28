@@ -163,4 +163,16 @@ Created ProductRepository and IProductRepository and added them to UnitOfWork an
 Created ProductController.cs and created productVM models in Models project
 
 2103
-Created ProductController, Index.cshtml and added link to nav bar. Created product.js
+Created ProductController, Index.cshtml and added link to nav bar. Created product.js.
+
+2023-11-27 1948
+I didn't have the upsert from last part so I have to work on it.
+Then I created that page and run the application it worked perfectly.
+
+2149 (Part 4)
+Now I started with part 4 in which I have to change my code so we can work on showing the products we have.
+I compared my code with the one that professor provided and made changes in my code. It does ran into an issue it is not showing the image of the products.
+But I'm done with last part.
+
+2023-11-28 1306
+I am trying to resolve my issue but it,s still not working I think it's because of the theme I have selected.
