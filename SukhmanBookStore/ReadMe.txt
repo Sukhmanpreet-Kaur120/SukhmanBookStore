@@ -186,3 +186,5 @@ My head is gonna explode right now nothing is working out I do not know my mista
 2023-12-05
 Submiting my work tried everything to solve my issue for image deleted the folder in the wwwroot and add it again changed some functions still nothing.
 Gonna submit my work 
+
+x
