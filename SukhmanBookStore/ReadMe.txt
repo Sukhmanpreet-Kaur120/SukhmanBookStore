@@ -176,3 +176,13 @@ But I'm done with last part.
 
 2023-11-28 1306
 I am trying to resolve my issue but it,s still not working I think it's because of the theme I have selected.
+
+2023-12-04 1820
+Started working on my image because it is not showing but the details are.
+
+1908
+My head is gonna explode right now nothing is working out I do not know my mistake.
+
+2023-12-05
+Submiting my work tried everything to solve my issue for image deleted the folder in the wwwroot and add it again changed some functions still nothing.
+Gonna submit my work 
